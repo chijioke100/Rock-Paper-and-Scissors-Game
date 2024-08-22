@@ -5,6 +5,11 @@ const selections = ['rock', 'paper', 'scissors'];
 const player = document.getElementById("player");
 const computer = document.getElementById("computer");
 const outcome = document.getElementById("outcome");
+const playerScoreDisplay = document.getElementById("playerScoreDisplay");
+const computerScoreDisplay = document.getElementById("computerScoreDisplay");
+let playerScore = 0;
+let computerScore = 0;
+
 
 // function that accept one argument
 function gameOn(selectOn) {
@@ -34,6 +39,19 @@ function gameOn(selectOn) {
     player.textContent = `PLAYER: ${selectOn}`;
     computer.textContent = `COMPUTER: ${computerSelect}`;
     outcome.textContent = result;
+
+
+    switch(result){
+        case "WIN!":
+            playerScore++;
+            playerScoreDisplay.textContent = playerScore;
+        break;
+        case "LOSE!":
+            computerScore++;
+            computerScoreDisplay.textContent = computerScore;
+            break;
+
+    }
 
 
 }
