@@ -1,6 +1,7 @@
-// Declare
+// Declarations
 
 const selections = ['rock', 'paper', 'scissors'];
+
 const player = document.getElementById("player");
 const computer = document.getElementById("computer");
 const outcome = document.getElementById("outcome");
@@ -16,6 +17,7 @@ function gameOn(selectOn) {
         result = "DRAW";
     }
     else {
+        // Use Switch Case Statement to handle the conditions
         switch(selectOn) {
             case "rock":
             result = (computerSelect === "scissors") ? "WIN!" : "LOSE!";
