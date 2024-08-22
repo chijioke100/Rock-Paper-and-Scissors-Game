@@ -10,24 +10,28 @@ function gameOn(selectOn) {
 
 // Generate a Random Number for Rock, Paper and Scissors
     const computerSelect = selections[Math.floor(Math.random() * 3)];
-    let outcome = "";
+    let result = "";
 
-    if (gameOn === computerSelect){
-        outcome = "Draw";
+    if(selectOn === computerSelect){
+        result = "DRAW";
     }
     else {
-        switch (gameOn) {
+        switch(selectOn) {
             case "rock":
-            outcome = (computerSelect === "scissors") ? "WIN!" : "LOSE!";
+            result = (computerSelect === "scissors") ? "WIN!" : "LOSE!";
             break;
             case "paper":
-            outcome = (computerSelect === "rock") ? "WIN!" : "LOSE!";
+            result = (computerSelect === "rock") ? "WIN!" : "LOSE!";
             break;
             case "scissors":
-            outcome = (computerSelect === "paper") ? "WIN!" : "LOSE!";
+            result = (computerSelect === "paper") ? "WIN!" : "LOSE!";
             break;
         }
     }
+
+    player.textContent = `PLAYER: ${selectOn}`;
+    computer.textContent = `COMPUTER: ${computerSelect}`;
+    outcome.textContent = result;
 
 
 }
