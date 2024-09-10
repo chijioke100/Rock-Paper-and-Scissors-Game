@@ -46,5 +46,19 @@ ii.	 It helps the players to know who is winning and who is losing.
 #### Left to Implement
 •	When there is time I will like to include emoji logo for the game to make it more interesting.
 
+## Testing
+•	I tested playing the game in different browsers: Firefox, Chrome, Safari.
+
+•	I confirmed the results are correct.
+
+•	I confirmed that the header, the game options, game results, game counter are readable and easy to understand.
+
+•	I confirmed that the colours and fonts chosen are easy to read and accessible by running it through the lighthouse dev tools.
+
+•	I confirmed that the project is responsive, looks good in all screen sizes using dev tools device toolbar.
+
+![Lighthouse view](<assets/images/lighthouse view.png>)
+
+
 
 
