@@ -4,7 +4,7 @@ When selected, the result can either be win, loose or draw randomly. Adult and c
 
 ![Responsive image](<assets/images/responsive%20image.png>)
 
-## FEATURES <br>
+## Features <br>
 
 ### Existing Features
 
@@ -109,8 +109,11 @@ ii. From the source section drop-down menu, select the master branch.
 
 iii. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The link can be found here
+The link can be found here [Rock, Paper and Scissors](https://chijioke100.github.io/Rock-Paper-and-Scissors-Game/)
 
+## Credit
+### Content
+•	Instructions on how to implement this project was taken from this [youtube video tutorial](https://www.youtube.com/watch?v=3uKdQx-SZ5A&t=601s)
 
 
 
