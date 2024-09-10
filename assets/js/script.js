@@ -40,15 +40,18 @@ function gameOn(selectOn) {
     computer.textContent = `COMPUTER: ${computerSelect}`;
     outcome.textContent = result;
 
+    outcome.classList.remove("blueScore", "redScore");
 
     switch(result){
         case "WIN!":
             playerScore++;
             playerScoreDisplay.textContent = playerScore;
+            outcome.classList.add("blueScore");
         break;
         case "LOSE!":
             computerScore++;
             computerScoreDisplay.textContent = computerScore;
+            outcome.classList.add("redScore");
             break;
 
     }

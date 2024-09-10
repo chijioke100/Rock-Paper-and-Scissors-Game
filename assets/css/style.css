@@ -32,7 +32,19 @@ h1 {
     
 }
 
+#computer {
+    margin-bottom: 1.5rem;
+}
+
 #outcome {
     margin-bottom: 30px;
+}
+
+.redScore{
+    color: #ff0000;
+}
+
+.blueScore{
+    color: #0000ff;
 }
 
