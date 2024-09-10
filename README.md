@@ -59,6 +59,63 @@ ii.	 It helps the players to know who is winning and who is losing.
 
 ![Lighthouse view](<assets/images/lighthouse view.png>)
 
+## Validator Testing
+
+•	HTML
+
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
+![html validator](<assets/images/hmtl validator.png>)
+
+
+•	CSS
+
+o	No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+![css validator](<assets/images/css validator.png>)
+
+•	JavaScript
+
+No errors were returned when passing through the official [Jshint validator](https://jshint.com/)
+
+o	The following metrics were returned
+
+i. Only one function is returned.
+
+ii. There are 10 function statements.
+
+iii. It takes only one argument.
+
+iv. Cyclomatic complexity number for the function is 10.
+
+v. There are 12 warnings.
+
+vi. One unused variable is returned.
+
+![Javascript validator](<assets/images/javascript validator.png>)
+
+## Bugs
+The bugs are the warning message that is about extension version (ES6) or Mozilla JS extensions (moz) and gameOn is the function name.
+
+### Unfixed bugs
+No unfixed bugs.
+
+## Deployment
+•	The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+i. In the GitHub repository, navigate to the Settings tab.
+
+ii. From the source section drop-down menu, select the master branch.
+
+iii. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The link can be found here
+
+
+
+
+
+
 
 
 

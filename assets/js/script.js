@@ -40,8 +40,10 @@ function gameOn(selectOn) {
     computer.textContent = `COMPUTER: ${computerSelect}`;
     outcome.textContent = result;
 
+    // Makes the 'Draw' result not to be Blue or Red 
     outcome.classList.remove("blueScore", "redScore");
 
+    // Add Score for Computer, Player and adding text color to 'WIN' or 'LOSE'
     switch(result){
         case "WIN!":
             playerScore++;
