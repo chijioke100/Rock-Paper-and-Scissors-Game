@@ -34,6 +34,17 @@ ii.	The results are clear to the user, which makes the game easy to use and unde
 
 ![Game result-draw](<assets/images/game option image3.png>)
 
+#### •	Game Counter
+i.	The game counter shows the rate of win and lose between the computer and the player
+
+ii.	 It helps the players to know who is winning and who is losing.
+
+![Game counter win for computer](<assets/images/game counter computer win.png>)
+
+![Game counter win for player](<assets/images/game counter player win.png>)
+
+#### Left to Implement
+•	When there is time I will like to include emoji logo for the game to make it more interesting.
 
 
 
